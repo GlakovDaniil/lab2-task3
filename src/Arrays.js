@@ -1,5 +1,9 @@
 export function arraySorting(data) {
-    return data.split(',').map(Number).sort((a, b) => a - b).join(',');
+    return data
+        .split(',')
+        .map(Number)
+        .sort((a, b) => a - b)
+        .join(',');
 }
 
 export function arrayFiltering(data) {
